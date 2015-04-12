@@ -1,0 +1,95 @@
+html{
+  box-sizing: border-box;
+}
+
+*,*::before, *::after {
+  box-sizing:inherit;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0.5em;
+}
+
+header{
+  background-color: #5b5a5a;
+}
+
+nav{
+  background-color: #5b5a5a ;
+  text-align: center;
+  padding-right: 7em;
+  padding-left: 7em;
+  padding-bottom: 1em;
+}
+
+nav ol{
+   list-style: none;
+   color: white;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+
+ nav a{
+ display: block;
+ color: white;
+ text-decoration: none;
+ font-family: 'Roboto', sans-serif;
+ font-size: 1.1rem;
+ padding-left: 1.5em;
+ padding-right: 1.5em;
+}
+
+ol li{
+  float:left;
+}
+
+.pancakes{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+figure{
+  margin: 0;
+  position: relative;
+}
+
+figcaption{
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin: 0.5em;
+  position: absolute;
+  bottom: 35%;
+  text-align: center;
+  width: 100%;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  padding-left: 0.5em;
+}
+
+.restaurant{
+  width: 50%;
+  float: left;
+  padding: 1em;
+}
+
+.restaurant-2{
+  width: 50%;
+  float: left;
+  padding: 1em;
+}
+
+.benches{
+  width: 100%;
+  clear: both;
+  padding: 1em;
+}
