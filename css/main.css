@@ -10,9 +10,11 @@ h1{
   font-family: 'Pacifico', cursive;
   color: white;
   font-size: 2.5em;
-  text-align: center;
   margin: 0;
-  padding-bottom: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 1em;
+  text-align: center;
 }
 
 header{
@@ -24,6 +26,7 @@ nav{
   text-align: center;
   padding-bottom: 1em;
   position: relative;
+  z-index: 1;
 }
 
 nav ol{
@@ -32,6 +35,12 @@ nav ol{
    margin: 0;
    padding: 0;
    overflow: hidden;
+ }
+
+ nav li{
+   float: left;
+   margin: 0;
+   text-align:center;
  }
 
  nav a{
@@ -43,10 +52,15 @@ nav ol{
  padding-left: 0.5em;
  padding-right: 0.5em;
  text-align: center;
+ width: 33.3%;
+}
+
+nav a:hover{
+  color: #d38a81;
 }
 
 ol li{
-  float:left;
+text-decoration: none;
 }
 
 .pancakes{
@@ -64,8 +78,6 @@ figcaption{
   font-family: 'Pacifico', cursive;
   color: white;
   font-size: 2em;
-  text-align: center;
-  margin: 0.5em;
   position: absolute;
   bottom: 35%;
   text-align: center;
@@ -78,25 +90,18 @@ p{
 }
 
 .restaurant{
-  width: 50%;
-  float: left;
+  width: 100%;
   padding: 1em;
 }
 
-.restaurant-2{
-  width: 50%;
-  float: left;
-  padding: 1em;
-}
 
 .benches{
   width: 100%;
-  clear: both;
   padding: 1em;
 }
 
 h2{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size: 1.5em;
   text-align: center;
   margin: 0;
@@ -105,9 +110,10 @@ h2{
 
 .time{
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size: 1.5em;
   color: white;
+  margin: 0;
 }
 
 .small{
@@ -118,8 +124,23 @@ h2{
 
 .hours{
   background-color: #d38a81;
-  padding: 1.5em;
+  padding: 0.5em;
   margin: 0;
   color: white;
   text-align: center;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+h3 a:visited{
+  color: #5b5a5a;
+}
+
+footer{
+  background-color:#86a6a1;
 }
