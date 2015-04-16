@@ -91,21 +91,21 @@ p{
 
 .restaurant{
   width: 100%;
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 
 .benches{
   width: 100%;
-  padding: 1em;
+  padding-bottom: 1em;
 }
 
 h2{
-  font-family: 'Pacifico', cursive;
-  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-size:2em;
   text-align: center;
   margin: 0;
-  padding-bottom: 0.5em;
 }
 
 .time{
