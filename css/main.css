@@ -22,15 +22,11 @@ header{
 }
 
 nav{
-  background-color: #5b5a5a ;
-  text-align: center;
-  padding-bottom: 1em;
-  position: relative;
-  z-index: 1;
+width: 100%;
+margin: 0;
 }
 
 nav ol{
-   list-style: none;
    color: white;
    margin: 0;
    padding: 0;
@@ -41,6 +37,8 @@ nav ol{
    float: left;
    margin: 0;
    text-align:center;
+   width: 33.3%;
+   list-style: none;
  }
 
  nav a{
@@ -52,7 +50,10 @@ nav ol{
  padding-left: 0.5em;
  padding-right: 0.5em;
  text-align: center;
- width: 33.3%;
+ background-color: #5b5a5a ;
+ padding:0.74em;
+ position: relative;
+ z-index: 1;
 }
 
 nav a:hover{
